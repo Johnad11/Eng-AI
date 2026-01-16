@@ -1,0 +1,48 @@
+﻿node : file:///C:/Use
+rs/Owner/Documents/Jo
+hnad%20Eng%20AI/serve
+r/index.js:8
+At line:1 char:1
++ node index.js 2>&1 
+| out-file -filePath 
+"debug_output_err.txt
+" -encod ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (file://   
+ /C:/User...rver/    
+index.js:8:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+import pdf from 
+'pdf-parse';
+       ^^^
+SyntaxError: The 
+requested module 
+'pdf-parse' does not 
+provide an export 
+named 'default'
+    at 
+#asyncInstantiate (no
+de:internal/modules/e
+sm/module_job:302:21)
+    at async 
+ModuleJob.run (node:i
+nternal/modules/esm/m
+odule_job:405:5)
+    at async onImport
+.tracePromise.__proto
+__ (node:internal/mod
+ules/esm/loader:654:2
+6)
+    at async asyncRun
+EntryPointWithESMLoad
+er (node:internal/mod
+ules/run_main:101:5)
+
+Node.js v25.2.1

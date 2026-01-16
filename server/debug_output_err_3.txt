@@ -1,0 +1,97 @@
+﻿[dotenv@17.2.3] injecting env (2) from .env -- tip: ­ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+node : C:\Users\Owner
+\Documents\Johnad 
+Eng AI\server\node_mo
+dules\path-to-regexp\
+dist\index.js:96
+At line:1 char:1
++ node index.js 2>&1 
+| out-file -filePath 
+"debug_output_err_3.t
+xt" -enc ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (C:\User   
+ s\Owner\...ist\i    
+ndex.js:96:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+            throw 
+new 
+PathError(`Missing 
+parameter name at 
+index ${index}`, 
+str);
+                  ^
+
+PathError 
+[TypeError]: Missing 
+parameter name at 
+index 1: *; visit htt
+ps://git.new/pathToRe
+gexpError for info
+    at name (C:\Users
+\Owner\Documents\John
+ad Eng AI\server\node
+_modules\path-to-rege
+xp\dist\index.js:96:1
+9)
+    at parse (C:\User
+s\Owner\Documents\Joh
+nad Eng AI\server\nod
+e_modules\path-to-reg
+exp\dist\index.js:113
+:68)
+    at pathToRegexp (
+C:\Users\Owner\Docume
+nts\Johnad Eng AI\ser
+ver\node_modules\path
+-to-regexp\dist\index
+.js:267:58)
+    at Object.match (
+C:\Users\Owner\Docume
+nts\Johnad Eng AI\ser
+ver\node_modules\path
+-to-regexp\dist\index
+.js:237:30)
+    at matcher (C:\Us
+ers\Owner\Documents\J
+ohnad Eng AI\server\n
+ode_modules\router\li
+b\layer.js:86:23)
+    at new Layer (C:\
+Users\Owner\Documents
+\Johnad Eng AI\server
+\node_modules\router\
+lib\layer.js:93:62)
+    at router.route (
+C:\Users\Owner\Docume
+nts\Johnad Eng AI\ser
+ver\node_modules\rout
+er\index.js:428:17)
+    at app.route (C:\
+Users\Owner\Documents
+\Johnad Eng AI\server
+\node_modules\express
+\lib\application.js:2
+57:22)
+    at 
+app.<computed> [as 
+get] (C:\Users\Owner\
+Documents\Johnad Eng 
+AI\server\node_module
+s\express\lib\applica
+tion.js:478:22)
+    at file:///C:/Use
+rs/Owner/Documents/Jo
+hnad%20Eng%20AI/serve
+r/index.js:91:9 {
+  originalPath: '*'
+}
+
+Node.js v25.2.1

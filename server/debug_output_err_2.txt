@@ -1,0 +1,81 @@
+﻿node : node:internal/
+modules/esm/resolve:3
+13
+At line:1 char:1
++ node index.js 2>&1 
+| out-file -filePath 
+"debug_output_err_2.t
+xt" -enc ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (node:in   
+ ternal/modules/e    
+sm/resolve:313:S    
+tring) [], Remot    
+eException
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  return new ERR_PACK
+AGE_PATH_NOT_EXPORTED
+(
+         ^
+
+Error [ERR_PACKAGE_PA
+TH_NOT_EXPORTED]: 
+Package subpath 
+'./lib/pdf-parse.js' 
+is not defined by 
+"exports" in C:\Users
+\Owner\Documents\John
+ad Eng AI\server\node
+_modules\pdf-parse\pa
+ckage.json imported 
+from C:\Users\Owner\D
+ocuments\Johnad Eng 
+AI\server\index.js
+    at 
+exportsNotFound (node
+:internal/modules/esm
+/resolve:313:10)
+    at packageExports
+Resolve (node:interna
+l/modules/esm/resolve
+:661:9)
+    at 
+packageResolve (node:
+internal/modules/esm/
+resolve:774:12)
+    at moduleResolve 
+(node:internal/module
+s/esm/resolve:858:18)
+    at 
+defaultResolve (node:
+internal/modules/esm/
+resolve:990:11)
+    at #cachedDefault
+Resolve (node:interna
+l/modules/esm/loader:
+712:20)
+    at #resolveAndMay
+beBlockOnLoaderThread
+ (node:internal/modul
+es/esm/loader:729:38)
+    at ModuleLoader.r
+esolveSync (node:inte
+rnal/modules/esm/load
+er:758:52)
+    at #resolve (node
+:internal/modules/esm
+/loader:694:17)
+    at ModuleLoader.g
+etOrCreateModuleJob (
+node:internal/modules
+/esm/loader:614:35) {
+  code: 'ERR_PACKAGE_
+PATH_NOT_EXPORTED'
+}
+
+Node.js v25.2.1
