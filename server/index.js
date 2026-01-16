@@ -14,6 +14,9 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+export default app;
+
+
 // Configure Gemini
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
@@ -97,6 +100,9 @@ if (process.env.NODE_ENV === 'production') {
     });
 }
 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+    app.listen(port, () => {
+        console.log(`Server running on port ${port}`);
+    });
+}
+
